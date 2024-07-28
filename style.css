@@ -1,7 +1,9 @@
+.body{
+    background-color: #17BEBB;
+}
 .Profile{
 background-color: #1F2421;
 align: centre;
-
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 100px;
@@ -10,7 +12,7 @@ padding: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
-
+box-shadow: 5px 5px 10px 10px #FFF4EB;
 
 }
 .profilewords{
@@ -36,6 +38,10 @@ p{
     font-size: 40px;
     margin:0;
 }
+.myname{
+    color: #17BEBB;
+    text-decoration: underline;
+}
 
 .intro1{
    
@@ -48,13 +54,10 @@ font-weight: bold;
 }
 
 .Profilepicture{
-    
+    box-shadow: 10px 10px #17BEBB;
     width: 300px;
-    height:400px;
+    height:350px;
     
     
 }
-.img{
-    width: 300px;
-    height: 400px;
-}
+
