@@ -1,0 +1,60 @@
+.Profile{
+background-color: #1F2421;
+align: centre;
+
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;
+margin-bottom: 100px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.profilewords{
+    
+    margin-right: 20px;
+    padding: 20px;
+
+    
+}
+p{
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+    color:#FE938C;
+} 
+.hello{
+    
+    margin-top:0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.name{
+    
+    font-weight: bold;
+    font-size: 40px;
+    margin:0;
+}
+
+.intro1{
+   
+font-size: 20px;
+font-weight: bold;
+}
+.intro2{
+    
+    font-size: 20px;
+}
+
+.Profilepicture{
+    
+    width: 300px;
+    height:400px;
+    
+    
+}
+.img{
+    width: 300px;
+    height: 400px;
+}
