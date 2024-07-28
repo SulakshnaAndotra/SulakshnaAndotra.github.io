@@ -19,23 +19,24 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     
     margin-right: 20px;
     padding: 20px;
+    
 
     
 }
 p{
     font-family: "Lucida Handwriting", "Brush script MT", cursive;
-    color:#FE938C;
+    
 } 
 .hello{
-    
+    color:#FE938C;
     margin-top:0px;
     font-weight: bold;
     font-size: 25px;
 }
 .name{
-    
+    color:#FE938C;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 39px;
     margin:0;
 }
 .myname{
@@ -44,12 +45,12 @@ p{
 }
 
 .intro1{
-   
+    color:#FE938C;
 font-size: 20px;
 font-weight: bold;
 }
 .intro2{
-    
+    color:#FE938C;
     font-size: 20px;
 }
 
@@ -57,7 +58,30 @@ font-weight: bold;
     box-shadow: 10px 10px #17BEBB;
     width: 300px;
     height:350px;
-    
-    
 }
+.projectintroline{
+    font-size: 30px;
+    text-align: center;
+    color:#FE938C;
+    text-decoration: none;
+}
+.myprojectbuttondiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.myprojects{
+    font-size: 20px;
+    background-color: #FE938C;
+    color: #1F2421;
+    padding: 50px 300px;
+    font-weight: bold;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+}
+.myprojects:hover{
+    background-color: #17BEBB;
 
+}
