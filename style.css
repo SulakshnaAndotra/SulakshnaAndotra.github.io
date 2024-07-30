@@ -1,5 +1,5 @@
 .body{
-    background-color: #17BEBB;
+    background-color: lightgray;
 }
 .Profile{
 background-color: #1F2421;
@@ -7,7 +7,7 @@ align: centre;
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 100px;
-margin-bottom: 100px;
+margin-bottom: 200px;
 padding: 20px;
 display: flex;
 align-items: center;
