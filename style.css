@@ -1,7 +1,7 @@
 .body{
     background-color: lightgray;
 }
-.Profile{
+.ProfileDiv{
 background-color: #1F2421;
 align: centre;
 margin-left: 200px;
@@ -15,25 +15,36 @@ justify-content: center;
 box-shadow: 5px 5px 10px 10px #FFF4EB;
 
 }
+.aboutdiv{
+    align: centre;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;
+margin-bottom: 200px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 5px 5px 10px 10px #FFF4EB;
+}
 .profilewords{
     
     margin-right: 20px;
     padding: 20px;
     
-
-    
 }
-p{
+
+p, h1, h2{
     font-family: "Lucida Handwriting", "Brush script MT", cursive;
     
 } 
-.hello{
+.hello, .aboutheadline{
     color:#FE938C;
     margin-top:0px;
     font-weight: bold;
     font-size: 25px;
 }
-.name{
+.name, .about{
     color:#FE938C;
     font-weight: bold;
     font-size: 39px;
@@ -49,12 +60,12 @@ p{
 font-size: 20px;
 font-weight: bold;
 }
-.intro2{
+.intro2, .bio{
     color:#FE938C;
     font-size: 20px;
 }
 
-.Profilepicture{
+.ProfilepictureDiv{
     box-shadow: 10px 10px #17BEBB;
     width: 300px;
     height:350px;
@@ -85,3 +96,4 @@ font-weight: bold;
     background-color: #17BEBB;
 
 }
+
