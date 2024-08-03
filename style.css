@@ -60,7 +60,7 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     
 }
 
-p, h1, h2{
+p, h1, h2, h3{
     font-family: "Lucida Handwriting", "Brush script MT", cursive;
     
 } 
@@ -142,7 +142,7 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
 .projectdiv{
     background-color:#FFF4EB;
     padding-bottom: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding-top: 20px;
 }
 .projectline2{
@@ -150,7 +150,7 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     text-align: center;
     color:#FE938C;
 }
-.projectintroline{
+.projectintroline, h3{
     font-size: 40px;
     font-weight:bolder;
     text-align: center;
@@ -180,5 +180,12 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     color: #1F2421;
     border-color: #17BEBB;
 
+}
+.contactdiv{
+    background-color:#FFF4EB;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
 }
 
