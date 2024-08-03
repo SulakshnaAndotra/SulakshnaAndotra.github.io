@@ -10,13 +10,17 @@
  </head>
 
  <body>
-  <nav>
-    <img src="logo1.JPG" alt="logo" width="150px" height="100px" border-radius="10px">
-    <a href="#">Home</a> 
-    <a href="#">About</a> 
-    <a href="#myproject">My Projects</a> 
-    <a href="#">Contact</a>
+  <nav class="navbar">
+    <div class="navdiv">
+    <div class="logo"><img class="logoimg" src="logo1.JPG" alt="logo" width="150px" height="100px" border-radius="10px"></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#myproject">My Projects</a></li>
+      <li><a href="#">Contact</a></li>
+  </div>
   </nav>
+
 
   <div class="ProfileDiv">
     <div class="profilewords">
@@ -25,31 +29,55 @@
     <p class="intro1">A SheCoder</p>
     <p class="intro2">Of course, there is so much more to me than just a few fancy titles. Scroll down and get to know me.</p>
   </div>
-
   <div class="ProfilepictureDiv">
     <img src="image.jpeg" alt="Profile Picture" width="300px" height="350px" border-radius="10px">
   </div>
   </div>
-
-<div class="aboutdiv">
+<div class="aboutdiv" id="about">
   <div class="AboutpictureDiv">
-    <img src="About.JPG" alt="A professional girl animate image" width="300px" height="350px" border-radius="10px">
+    <img class="aboutimg" src="About.JPG" alt="A professional girl animate image" width="300px" height="350px" border-radius="10px">
   </div>
 
+
+
   <div class="aboutworddiv">
-    <h2 class="about">About</h2>
-    <h2 class="aboutheadline">Lets introduced about myself</h2>
-    <p class="bio">This is me, blablaksdnfibfierfsdc sdfjhgebifbdck ierbf sdchf eruchoefnccekc </p>
-  </Div>
+
+    <h2 class="aboutheadline">Lets Introduced About Myself</h2>
+    <p class="bio"> With a robust foundation in both theoretical and practical aspects of technology, 
+      I bring a unique blend of expertise and enthusiasm to the field of ICT. 
+      I hold a <span class="study">Bachelor’s degree in Computer Applications</span> from Jammu University in India and a <span class="study">Master of Commerce in Information Systems and Technology </span> from Curtin University. 
+      This diverse educational background equips me with a comprehensive understanding of both technology and business processes. 
+      My career is defined by my adaptability, flexibility, and rapid learning ability. 
+      I approach each project with a positive attitude and ensuring that I consistently deliver high-quality results. 
+      Outside of work, I have a passion for food and enjoy exploring new culinary experiences. 
+      I am eager to contribute my skills and enthusiasm to a forward-thinking organization where I can continue to grow and make a meaningful impact. </p>
+   <button class="cv">Download CV</button></div>
 </div>
   
 
 
 
-<p class="projectintroline" id="myproject">Look at my shecode projects</p>
-<div class="myprojectbuttondiv"><button class="myprojects">My Projects</button></div>
+<div class="projectdiv"><p class="projectintroline" id="myproject">Look At My Shecode Projects</p>
+  <p class="projectline2">These projects are a part of my she code journey, and what I have learnt so far. 
+    Click on the button below to have a look. &#x1f447  </p>
+<div class="myprojectbuttondiv"><button class="myprojects">My Projects</button></div> </div>
 
 
+<div>
+  <h3>Contact me</h3>
+  <Div>
+    <Input>Name</Input>
+    <Input>Email</Input>
+    <Input>Subject</Input>
+    <Input>Message</Input>
+    <Button>Send</Button>
+  </Div>
+</div>
+
+<div>
+  <h4>Follow Me</h4>
+
+</div>
 
 
  </body>

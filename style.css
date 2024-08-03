@@ -1,8 +1,46 @@
-.body{
-    background-color: lightgray;
+body{
+     background-color:#FE938C;
+    
+}
+.logoimg, .aboutimg{
+
+    box-shadow: 10px 10px #17BEBB;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.navbar{
+    
+    text-decoration: none;
+    background-color:#FFF4EB;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li a{
+    color:#FE938C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+li a:hover{
+    color: #17BEBB;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    color: #FE938C;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
 }
 .ProfileDiv{
-background-color: #1F2421;
+    background-color:#FFF4EB;
 align: centre;
 margin-left: 200px;
 margin-right: 200px;
@@ -15,18 +53,6 @@ justify-content: center;
 box-shadow: 5px 5px 10px 10px #FFF4EB;
 
 }
-.aboutdiv{
-    align: centre;
-margin-left: 200px;
-margin-right: 200px;
-margin-top: 100px;
-margin-bottom: 200px;
-padding: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: 5px 5px 10px 10px #FFF4EB;
-}
 .profilewords{
     
     margin-right: 20px;
@@ -38,19 +64,19 @@ p, h1, h2{
     font-family: "Lucida Handwriting", "Brush script MT", cursive;
     
 } 
-.hello, .aboutheadline{
-    color:#FE938C;
+.hello {
+    color:#1F2421;
     margin-top:0px;
     font-weight: bold;
     font-size: 25px;
 }
-.name, .about{
-    color:#FE938C;
+.name{
+    color: #FE938C;
     font-weight: bold;
     font-size: 39px;
     margin:0;
 }
-.myname{
+.myname, .study{
     color: #17BEBB;
     text-decoration: underline;
 }
@@ -60,7 +86,7 @@ p, h1, h2{
 font-size: 20px;
 font-weight: bold;
 }
-.intro2, .bio{
+.intro2, .bio, .projectline2{
     color:#FE938C;
     font-size: 20px;
 }
@@ -70,30 +96,89 @@ font-weight: bold;
     width: 300px;
     height:350px;
 }
-.projectintroline{
-    font-size: 30px;
+.aboutdiv{
+    background-color:#FFF4EB;
+    align: centre;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;
+margin-bottom: 200px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 5px 5px 10px 10px #FFF4EB;
+}
+.aboutheadline{
+    color:#1F2421;
+    font-weight:bolder;
+    font-size: 40px;
+    margin:0;
+}
+.aboutworddiv{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.cv{
+    background-color:#17BEBB;
+    border-color: none;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF4EB;
+    margin-left: 200px;
+
+}
+.cv:hover{
+    cursor: pointer;
+    background-color:#FFF4EB;
+    border-color: #17BEBB;
+    color: #1F2421;
+}
+.projectdiv{
+    background-color:#FFF4EB;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+.projectline2{
+    font-weight: bold;
     text-align: center;
     color:#FE938C;
+}
+.projectintroline{
+    font-size: 40px;
+    font-weight:bolder;
+    text-align: center;
+    color:#1F2421;
     text-decoration: none;
 }
 .myprojectbuttondiv{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .myprojects{
-    font-size: 20px;
-    background-color: #FE938C;
-    color: #1F2421;
+    font-size: 30px;
+    background-color:#17BEBB;
+    color:#FFF4EB;
+    border-color: none;
     padding: 50px 300px;
     font-weight: bold;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
     border-radius: 20px;
     display: block;
     align-items: center;
     cursor: pointer;
 }
 .myprojects:hover{
-    background-color: #17BEBB;
+    background-color:#FFF4EB;
+    color: #1F2421;
+    border-color: #17BEBB;
 
 }
 
