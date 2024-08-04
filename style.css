@@ -139,6 +139,7 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     background-color:#FFF4EB;
     padding-bottom: 100px;
     margin-bottom: 200px;
+    margin-top: 100px;
     padding-top: 20px;
 }
 .projectline2{
@@ -181,15 +182,16 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     background-color:#FFF4EB;
     padding-bottom: 100px;
     margin-bottom: 100px;
+    margin-top: 100px;;
     padding-top: 20px;
 }
 .formdiv{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 10px;
 }
 
-label {
+label{
     margin-bottom: 5px;
     padding: 10px;
     font-weight: bold;
@@ -238,6 +240,42 @@ button:hover {
     color:#1F2421; 
     text-emphasis:initial;
     
+}
+
+/* project.html project containers */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 50px); 
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project h2 {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.project p {
+    font-size: 14px;
+    color:#1F2421;
 }
 
 
