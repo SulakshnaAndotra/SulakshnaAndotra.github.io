@@ -21,7 +21,7 @@
       <li><a href="#contact">Contacts</a></li></ul>
   </div>
   </nav>
-
+<main>
 
   <div class="ProfileDiv">
     <div class="profilewords">
@@ -34,6 +34,7 @@
     <img src="img/image.jpeg" alt="Profile Picture" width="300px" height="350px" border-radius="10px">
   </div>
   </div>
+
 <div class="aboutdiv" id="about">
   <div class="AboutpictureDiv">
     <img class="aboutimg" src="img/About.JPG" alt="A professional girl animate image" width="300px" height="350px" border-radius="10px">
@@ -60,8 +61,10 @@
 <div class="projectdiv"><p class="projectintroline" id="myproject">Look At My Shecode Projects</p>
   <p class="projectline2">These projects are a part of my she code journey, and what I have learnt so far. 
     Click on the button below to have a look. &#x1f447  </p>
-<div class="myprojectbuttondiv"><button class="myprojects" target="_blank" >My Projects</button></div> </div>
 
+    <!-- <div class="myprojectbuttondiv"><a class="myprojects" href="project.html" target="_blank">My project</a> -->
+    <!-- </div> -->
+<div class="myprojectbuttondiv"><button type="button" onclick="location.href='project.html'" class="myprojects">My Projects</button></div> </div>
 
 <div class="contactdiv" id="contact">
   <h3>Contact Me</h3>
@@ -74,8 +77,10 @@
       
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4"></textarea>
-    <div><Button class="sendbutton">Send</Button></div>
-  </Div>
+    
+
+  </div>
+  <div class="sendbuttondiv"><Button class="sendbutton">Send</Button></div>
 </div>
 
 
@@ -92,6 +97,12 @@
 </div>
  
 
+</div>
+</main>
+<div class="footer">
+  <footer>
+    <p>&copy; Sulakshna Andotra</p>
+  </footer>
 </div>
 
 
