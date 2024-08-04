@@ -40,8 +40,7 @@ li{
     margin-right: 25px;
 }
 .ProfileDiv{
-    background-color:#FFF4EB;
-align: centre;
+background-color:#FFF4EB;
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 100px;
@@ -54,13 +53,11 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
 
 }
 .profilewords{
-    
     margin-right: 20px;
     padding: 20px;
-    
 }
 
-p, h1, h2, h3{
+p, h1, h2, h3, h4{
     font-family: "Lucida Handwriting", "Brush script MT", cursive;
     
 } 
@@ -97,8 +94,7 @@ font-weight: bold;
     height:350px;
 }
 .aboutdiv{
-    background-color:#FFF4EB;
-    align: centre;
+background-color:#FFF4EB;
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 100px;
@@ -150,7 +146,7 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     text-align: center;
     color:#FE938C;
 }
-.projectintroline, h3{
+.projectintroline, h3, h4{
     font-size: 40px;
     font-weight:bolder;
     text-align: center;
@@ -175,17 +171,73 @@ box-shadow: 5px 5px 10px 10px #FFF4EB;
     align-items: center;
     cursor: pointer;
 }
-.myprojects:hover{
+.myprojects:hover, .sendbutton:hover{
     background-color:#FFF4EB;
     color: #1F2421;
     border-color: #17BEBB;
 
 }
-.contactdiv{
+.contactdiv, .followdiv{
     background-color:#FFF4EB;
     padding-bottom: 100px;
     margin-bottom: 100px;
     padding-top: 20px;
 }
+.formdiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+
+label {
+    margin-bottom: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+}
+
+input[type="text"], textarea {
+
+    border-radius: 4px;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.sendbutton {
+    font-size: 20px;
+    background-color:#17BEBB;
+    color:#FFF4EB;
+    border-color: none;
+    padding: 50px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting", "Brush script MT", cursive;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-icons a {
+    text-decoration: none;
+    color:#FFF4EB;
+    font-size: 100px;
+}
+
+.social-icons a:hover {
+    color:#1F2421; 
+    text-emphasis:initial;
+    
+}
+
 
