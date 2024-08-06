@@ -14,6 +14,7 @@
 ​
 ### Technical
  I have created 2 web pages, which are linked with a button from the home page. I have choosed a very soft color for my webpage. I have used hover property alot for my buttons to make the responsivness a little impactful. I have commit and pushed the code everytime I have added something new. I wanted my "my porjevt button" to be open into a new webpage, but i am trobleshooted this as I needed to use tage <a> for this purpose. I will do this futher for the web page. I am strugging with displaying my webpage on smaller screens, I have created the webpage for a lager screen. I think I need more help to understand this part better. 
+ I figure out how to display the content on diffrent screen sizes with the help of flexbox froggy. 
 
 - [ ] At least 2 web pages.
 - [ ] Version controlled with Git
@@ -44,4 +45,11 @@ Please include the following:
 [hover nav](img/hovernav.jpeg)
 [hover icon](img/hovericons.jpeg)
 [hover button](img/hoverbutton.jpeg)
-[ phone view] I was not able to work on this part of the project
+[phone view] I was not able to work on this part of the project
+[phone view of hero](img/phone%20view%201.JPG)
+[phone view of bio](img/phone%20view%203.JPG)
+[phone view of project button](img/phone%20view%204.JPG)
+[phone view of contact form](img/phone%20view%205.JPG)
+[phone view of follow links](img/phone%20view%206.JPG)
+[phone view of project webpage](img/phone%20view%207.JPG) 
+[phone view of project webpage](img/phone%20view%208.JPG) 
